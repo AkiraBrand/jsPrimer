@@ -5,7 +5,7 @@ if(bookName.includes("great")) {
     console.log('ya, thats a great book');
     }
     else{bookArray.push(bookName);
-        console.log(`bookArray.length`);
+      console.log(bookArray.length)
     }
 };
 
@@ -15,8 +15,8 @@ var bookThree = "Their Eyes Were Watching God";
 var bookFour = "Kafka on the Shore";
 var bookFive = "From good to Great";
 
-// addFavoriteBook(bookOne);
-// addFavoriteBook(bookTwo);
+addFavoriteBook(bookOne);
+addFavoriteBook(bookTwo);
 addFavoriteBook(bookThree);
 addFavoriteBook(bookFour);
 addFavoriteBook(bookFive);
